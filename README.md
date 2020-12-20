@@ -1,5 +1,13 @@
 # BADMINTON-POSE-RECOGNITION
 
+## My Updates
+- 2020 - 10  Add newrunvideo.py 
+- 2020 - 10  Output keypoints as csv files in estimator.py
+- 2020 - 11  Apply player tracking in estimator.py
+- 2020 - 11  Update player tracking in estimator.py
+- 2020 - 11  Construct and training models to import by sklearn
+- 2020 - 12 - 20   Done background submission , bitwise and in file Background_subtraction
+
 ## tf-pose-estimation 
 openpose is reference by https://github.com/ildoonet/tf-pose-estimation <br>
 **!! this is not the full code it's mainly for backup usage**
@@ -9,15 +17,6 @@ openpose is reference by https://github.com/ildoonet/tf-pose-estimation <br>
 **You can even run this on your macbook with a descent FPS!**
 
 Implemented features are listed here : [features](./etcs/feature.md)
-
-## My Updates
-- 2020 - 10  Add newrunvideo.py 
-- 2020 - 10  Output keypoints as csv files in estimator.py
-- 2020 - 11  Apply player tracking in estimator.py
-- 2020 - 11  Update player tracking in estimator.py
-- 2020 - 11  Construct and training models to import by sklearn
-- 2020 - 12 - 20   Done background submission , bitwise and in file Background_subtraction
-
 
 ## Install
 
