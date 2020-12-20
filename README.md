@@ -1,6 +1,6 @@
 # tf-pose-estimation 
 openpose is reference by https://github.com/ildoonet/tf-pose-estimation <br>
-**!!this is not the full code it's mainly for backup usage**
+**!! this is not the full code it's mainly for backup usage**
 
 'Openpose', human pose estimation algorithm, have been implemented using Tensorflow. It also provides several variants that have some changes to the network structure for **real-time processing on the CPU or low-power embedded devices.**
 
