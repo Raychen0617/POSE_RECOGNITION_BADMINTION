@@ -18,9 +18,9 @@ openpose is reference by https://github.com/ildoonet/tf-pose-estimation <br>
 
 Implemented features are listed here : [features](./etcs/feature.md)
 
-## Install
+### Installation Guide
 
-### Dependencies
+#### Dependencies
 
 You need dependencies below.
 
@@ -31,7 +31,7 @@ You need dependencies below.
   - https://github.com/adamrehn/slidingwindow
   - I copied from the above git repo to modify few things.
 
-### Install
+#### Install
 
 Clone the repo and install 3rd-party libraries.
 
@@ -47,7 +47,7 @@ $ cd tf_pose/pafprocess
 $ swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
 
-### Package Install
+#### Package Install
 
 Alternatively, you can install this repo as a shared package using pip.
 
@@ -57,7 +57,7 @@ $ cd tf-pose-estimation
 $ python setup.py install  # Or, `pip install -e .`
 ```
 
-### Download Tensorflow Graph File(pb file)
+#### Download Tensorflow Graph File(pb file)
 
 Before running demo, you should download graph files. You can deploy this graph on your mobile or other platforms.
 
@@ -71,9 +71,9 @@ $ cd models/graph/cmu
 $ bash download.sh
 ```
 
-## Python Usage
+### Python Usage
 
-### Realtime Webcam
+#### Realtime Webcam
 
 ```
 $ python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0
@@ -85,7 +85,7 @@ Apply TensoRT
 $ python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0 --tensorrt=True
 ```
 
-### run video
+#### run video
 ```
 python3 newrunvideo.py --model=mobilenet_thin --video=./images/2.mp4 --write_video=./results.mp4
 ```
