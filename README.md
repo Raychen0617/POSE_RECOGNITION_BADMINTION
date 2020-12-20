@@ -65,8 +65,6 @@ Before running demo, you should download graph files. You can deploy this graph 
 - mobilenet_v2_large (trained in 432x368)
 - mobilenet_v2_small (trained in 432x368)
 
-CMU's model graphs are too large for git, so I uploaded them on an external cloud. You should download them if you want to use cmu's original model. Download scripts are provided in the model folder.
-
 ```
 $ cd models/graph/cmu
 $ bash download.sh
