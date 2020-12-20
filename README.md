@@ -14,7 +14,7 @@ Implemented features are listed here : [features](./etcs/feature.md)
 - 2020 - 11  Apply player tracking in estimator.py
 - 2020 - 11  Update player tracking in estimator.py
 - 2020 - 11  Construct and training models to import by sklearn
-- 2020 - 12 - 20   Done background submission and bitwise in file Background_subtraction
+- 2020 - 12 - 20   Done background submission , bitwise and in file Background_subtraction
 
 
 ## Install
