@@ -1,4 +1,6 @@
-# tf-pose-estimation 
+# BADMINTON-POSE-RECOGNITION
+
+## tf-pose-estimation 
 openpose is reference by https://github.com/ildoonet/tf-pose-estimation <br>
 **!! this is not the full code it's mainly for backup usage**
 
