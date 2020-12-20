@@ -13,6 +13,7 @@ Implemented features are listed here : [features](./etcs/feature.md)
 - 2020 - 10  Output keypoints as csv files
 - 2020 - 11  Apply player tracking in estimator.py
 - 2020 - 11  Update player tracking in estimator.py
+- 2020 - 11  Construct models to import by sklearn
 - 2020 - 12 - 20   Done background submission and bitwise in file Background_subtraction
 
 
