@@ -89,7 +89,7 @@ $ python run_webcam.py --model=mobilenet_thin --resize=432x368 --camera=0 --tens
 python3 newrunvideo.py --model=mobilenet_thin --video=./images/2.mp4 --write_video=./results.mp4
 ```
 
-# Background Subtraction using opencv
+## Background Subtraction using opencv
 
 Background subtraction (BS) is a common and widely used technique for generating a foreground mask (namely, a binary image containing the pixels belonging to moving objects in the scene) by using static cameras.<br>
 
@@ -97,7 +97,7 @@ As the name suggests, BS calculates the foreground mask performing a subtraction
 
 ![](https://i.imgur.com/PbVLrGX.png)
 
-Basic Code :
+Basic Example :
 ```
 from __future__ import print_function
 import cv2 as cv
@@ -135,6 +135,8 @@ while True:
     if keyboard == 'q' or keyboard == 27:
         break
 ```
+### Results
+
 Raw Data :
 
 ![](https://i.imgur.com/nYN5yIP.png)
@@ -147,7 +149,7 @@ Result After Bitwise And :
 
 ![](https://i.imgur.com/u5ZV8bG.png)
 
-## Usage
+### Usage
 ```
 python3 main.py --input video.mp4
 ```
