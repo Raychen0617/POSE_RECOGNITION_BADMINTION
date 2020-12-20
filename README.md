@@ -10,10 +10,10 @@ Implemented features are listed here : [features](./etcs/feature.md)
 
 ## My Updates
 - 2020 - 10  Add newrunvideo.py 
-- 2020 - 10  Output keypoints as csv files
+- 2020 - 10  Output keypoints as csv files in estimator.py
 - 2020 - 11  Apply player tracking in estimator.py
 - 2020 - 11  Update player tracking in estimator.py
-- 2020 - 11  Construct models to import by sklearn
+- 2020 - 11  Construct and training models to import by sklearn
 - 2020 - 12 - 20   Done background submission and bitwise in file Background_subtraction
 
 
@@ -24,7 +24,7 @@ Implemented features are listed here : [features](./etcs/feature.md)
 You need dependencies below.
 
 - python3
-- tensorflow 1.4.1+
+- tensorflow 1.4.1+ (python 3.6 above does not support)
 - opencv3, protobuf, python3-tk
 - slidingwindow
   - https://github.com/adamrehn/slidingwindow
