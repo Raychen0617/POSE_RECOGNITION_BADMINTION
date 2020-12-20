@@ -99,7 +99,7 @@ As the name suggests, BS calculates the foreground mask performing a subtraction
 ![](https://i.imgur.com/PbVLrGX.png)
 
 Basic Example :
-```
+```=py
 from __future__ import print_function
 import cv2 as cv
 import argparse
